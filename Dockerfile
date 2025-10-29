@@ -23,7 +23,6 @@ RUN mkdir -p /tmp/gpu && \
  dpkg -i *.deb && \
  rm *.deb
 
-ollama-ipex-llm-2.3.0b20250725-ubuntu.tgz
 # Install Ollama Portable Zip https://github.com/intel/ipex-llm/releases/download/v2.2.0/llama-cpp-ipex-llm-2.2.0-ubuntu-core.tgz
 ARG IPEXLLM_PORTABLE_ZIP_FILENAME=ollama-ipex-llm-2.3.0b20250725-ubuntu.tgz
 RUN cd / && \
